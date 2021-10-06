@@ -1,0 +1,59 @@
+//
+// GENERALS
+// ----------------------------------------------
+
+h1,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: $color-text;
+
+    font: {
+        family: $font-heading;
+        weight: 600;
+    }
+
+    margin-top: 2.1875rem;
+}
+
+p {
+    color: $color-text;
+
+    font: {
+        family: $font-parapraphs;
+        weight: 400;
+    }
+
+    opacity: 0.8;
+    margin: 2.1875rem 0 2.1875rem 0;
+}
+
+.second a {
+    width: 80%;
+    color: $color-register;
+    background-color: #fff;
+    padding: .75rem 3.125rem;
+    border-radius: 1.75rem;
+    -webkit-border-radius: 1.75rem;
+    -moz-border-radius: 1.75rem;
+    -ms-border-radius: 1.75rem;
+    -o-border-radius: 1.75rem;
+    text-decoration: none;
+    vertical-align: middle;
+
+    font: {
+        size: .875rem;
+        family: $font-heading;
+        weight: 600;
+    }
+
+    &:hover,
+    &:focus {
+        color: #fff;
+        background-color: $color-hover;
+    }
+}

@@ -1,0 +1,66 @@
+//
+// MEDIA QUERIES
+// ----------------------------------------------
+
+@media screen and (max-width: 1025px) {
+    body {
+        min-height: 100%;
+        margin: 2.5rem .625rem 2.5rem .625rem;
+    }
+
+    .second {
+        margin-bottom: 1.875rem;
+        text-align: center;
+    }
+
+    .second a {
+        padding: .75rem 5.125rem;
+    }
+
+    .pre-footer {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .pre-footer {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        min-height: 100%;
+        margin: 2.5rem .625rem 2.5rem .625rem;
+
+        background-image: url(../images/bg-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .second {
+        text-align: center;
+    }
+
+    .second a {
+        padding: .75rem 5.125rem;
+    }
+
+    .pre-footer {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 541px) {
+    body {
+        min-height: 100%;
+        margin: 2.5rem .625rem 2.5rem .625rem;
+    }
+
+    .second {
+        margin-bottom: 1.875rem;
+    }
+}

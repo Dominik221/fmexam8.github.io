@@ -1,0 +1,52 @@
+
+//
+// GENERALS
+// ----------------------------------------------
+
+body {
+    background-color: $color-bg-body;
+    min-height: 100vh;
+    font-size: $font-size-base;
+    margin: 1.875rem 3.125rem;
+    background-image: url(../images/bg-desktop.svg);
+    background-image: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    width: 10rem;
+    margin-bottom: 3.4375rem;
+}
+
+.second img {
+    width: 100%;
+}
+
+.pre-footer {
+    min-height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    &:nth-child(1) {
+        margin-right: 3.875rem;
+    }
+}
+
+.pre-footer a {
+    color: white;
+    border: .0625rem solid #fff;
+    padding: .5625rem .75rem;
+    margin-right: .75rem;
+    font-size: 1.125rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    &:hover {
+        border: .0625rem solid $color-hover;
+        color: $color-hover;
+    }
+}
